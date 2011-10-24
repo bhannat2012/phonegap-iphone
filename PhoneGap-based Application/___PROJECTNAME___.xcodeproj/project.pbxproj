@@ -419,6 +419,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -426,7 +430,7 @@
 				GCC_PREFIX_HEADER = "___PROJECTNAMEASIDENTIFIER___-Prefix.pch";
 				INFOPLIST_FILE = "___PROJECTNAMEASIDENTIFIER___-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-        ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "___PROJECTNAME___";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -436,12 +440,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "___PROJECTNAMEASIDENTIFIER___-Prefix.pch";
 				INFOPLIST_FILE = "___PROJECTNAMEASIDENTIFIER___-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-        ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "___PROJECTNAME___";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
